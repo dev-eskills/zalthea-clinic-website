@@ -110,7 +110,7 @@ const Hero = () => {
                             />
 
                             {/* Floating Accreditation Badge */}
-                            <div className="absolute bottom-10 left-10 right-10 backdrop-blur-md bg-white/80 p-5 rounded-2xl border border-white shadow-2xl flex items-center gap-4">
+                            <div className="absolute bottom-5 left-10 right-10 backdrop-blur-xl bg-white/80 p-5 rounded-2xl border border-white shadow-2xl flex items-center gap-4">
                                 <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center text-white">
                                     <ShieldCheck size={24} />
                                 </div>
