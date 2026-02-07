@@ -107,7 +107,7 @@ const Hero = () => {
                         {/* The Duo Image */}
                         <div className="relative rounded-[3rem] overflow-hiddenshadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] group bg-teal-700">
                             <img
-                                src="/public/combo.png" 
+                                src="/combo.png" 
                                 className="w-full h-auto object-cover transform transition-transform duration-1000 group-hover:scale-105"
                                 alt="Zalthea Specialists"
                             />
