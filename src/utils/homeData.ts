@@ -4,7 +4,7 @@ export const slides = [
         doctor: "Dr. Sami Anwar Khan",
         credentials: "MBBS, MS, MCh, CTVS (Gold Medalist)",
         desc: "Precision surgical care for heart and vascular health at Mohak Super Speciality.",
-        image: "/public/Cardiologist_hero.png", // Main large image
+        image: "/Cardiologist_hero.png", // Main large image
         gallery: [
             "/public/Cardiologist_hero.png", // Large
             "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80", // Small
@@ -17,7 +17,7 @@ export const slides = [
         doctor: "Dr. Sabiya Khan Suri",
         credentials: "MBBS, DLO (Gold Medalist)",
         desc: "Expert clinical solutions for complex hearing, sinus, and throat disorders.",
-        image: "/public/ent_background_flipped.png",
+        image: "/ent_background_flipped.png",
         gallery: [
             "/public/ent_background_flipped.png",
             "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80",
@@ -97,7 +97,7 @@ export const stats = [
         value: "13,000+",
         label: "Hearts Healed",
         desc: "Successful cardiac and vascular procedures performed across specialized centers.",
-        img: "/public/heart_doctors.png"
+        img: "/heart_doctors.png"
     },
     {
         value: "99%",
@@ -121,7 +121,7 @@ export const doctors= [
         regNo: 'Reg. No.: MP - 13768',
         hospital: 'Mohak Super Speciality & SAIMS Hospital',
         desc: 'Senior Consultant - Cardiothoracic & Vascular Surgeon specializing in complex heart surgeries and arterial revascularization.',
-        image: '/public/Sami.png'
+        image: '/Sami.png'
     },
     {
         value: 'ent',
@@ -130,7 +130,7 @@ export const doctors= [
         regNo: 'Reg. No.: MP - 15829',
         hospital: 'Shalby Multi-Specialty Hospital, Indore',
         desc: 'Consultant ENT and Head & Neck Surgeon with expertise in microscopic ear surgery and endoscopic sinus procedures.',
-        image: '/public/Sabiya.png'
+        image: '/Sabiya.png'
     }
 ];
 // export const doctors = [
