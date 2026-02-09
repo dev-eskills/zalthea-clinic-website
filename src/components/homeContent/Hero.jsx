@@ -5,7 +5,7 @@ import { Calendar, ShieldCheck, HeartPulse, Stethoscope } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden mt-5">   
+        <section className="relative min-h-[50vh] flex items-center bg-white overflow-hidden mt-5">
             <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 w-full">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
 
@@ -102,15 +102,15 @@ const Hero = () => {
                         className="relative "
                     >
                         {/* The Duo Image */}
-                        <div className="relative rounded-[3rem] overflow-hiddenshadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] group bg-teal-700">
+                        <div className="relative rounded-xl overflow-hiddenshadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] group bg-teal-700">
                             <img
-                                src="/combo.png" 
+                                src="/combo.png"
                                 className="w-full h-auto object-cover transform transition-transform duration-1000 group-hover:scale-105"
                                 alt="Zalthea Specialists"
                             />
 
                             {/* Floating Accreditation Badge */}
-                            <div className="absolute bottom-5 left-10 right-10 backdrop-blur-xl bg-white/80 p-5 rounded-2xl border border-white shadow-2xl flex items-center gap-4">
+                            <div className="absolute bottom-5 left-5 right-5 md:left-10 md:right-10 backdrop-blur-xl bg-white/80 p-4 md:p-6 rounded-xl shadow-2xl flex items-center gap-4 min-h-20 md:min-h-25">
                                 <div className="w-12 h-12 bg-teal-600 rounded-xl flex items-center justify-center text-white">
                                     <ShieldCheck size={24} />
                                 </div>
