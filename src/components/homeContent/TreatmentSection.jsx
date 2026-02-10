@@ -25,7 +25,7 @@ export default function TreatmentSection() {
     const navigate = useNavigate();
 
     return (
-        <section className="py-24 md:py-32 bg-slate-50 relative overflow-hidden">
+        <section className="py-24 md:py-32  relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Modern Header */}
@@ -42,7 +42,7 @@ export default function TreatmentSection() {
                 </div>
 
                 {/* The Seamless Mosaic Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-slate-200 border border-slate-200 rounded-md overflow-hidden shadow-2xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px  rounded-md overflow-hidden ">
                     {treatments.map((t, i) => {
                         const IconComponent = iconMap[t.iconName] || Activity;
 
@@ -53,7 +53,7 @@ export default function TreatmentSection() {
                                 whileInView={{ opacity: 1 }}
                                 viewport={{ once: true }}
                                 onClick={() => navigate(t.link)}
-                                className="group relative bg-white p-10 md:p-12 hover:bg-teal-900 transition-all duration-700 flex flex-col justify-between min-h-[420px] cursor-pointer"
+                                className="group relative bg-white border border-slate-200 p-10 md:p-12 hover:bg-teal-900 shadow-xl transition-all duration-700 flex flex-col justify-between min-h-[420px] cursor-pointer"
                             >
                                 {/* Background "Ghost" Numbering */}
                                 <div className="absolute top-10 right-10 text-slate-50 group-hover:text-white/5 font-black text-8xl transition-colors duration-700 select-none pointer-events-none">
