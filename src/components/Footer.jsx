@@ -54,7 +54,7 @@ export default function Footer() {
               {[
                 "Home",
                 "ENT Specialist",
-                "Cardiology",
+                "CTVS",
                 "Book Appointment",
                 "Take Advice",
                 "Contact",
@@ -66,7 +66,7 @@ export default function Footer() {
                         ? "/"
                         : label === "ENT Specialist"
                           ? "/ent"
-                          : label === "Cardiology"
+                          : label === "CTVS"
                             ? "/cardiology"
                             : label === "Book Appointment"
                               ? "/book-appointment"

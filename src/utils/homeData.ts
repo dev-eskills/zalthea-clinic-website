@@ -199,7 +199,7 @@ export const doctors = [
     name: "Dr. Sami Anwar Khan",
     credentials: "MBBS, MS, MCh, CTVS (Gold Medalist)",
     hospital: "Mohak Super Speciality & SAIMS Hospital",
-    desc: "Senior Consultant - Cardiothoracic & Vascular Surgeon specializing in complex heart surgeries and arterial revascularization.",
+    desc: "Senior Consultant Cardiothoracic & Vascular Surgeon specializing in coronary artery bypass (CABG), valve repair and replacement, minimally invasive cardiac surgery, congenital and pediatric heart surgery, thoracic procedures for lung and chest diseases, and advanced vascular surgeries including PAD, aneurysm, carotid artery, and diabetic foot management.",
     image: "/Sami.png",
   },
   {
@@ -207,10 +207,11 @@ export const doctors = [
     name: "Dr. Sabiya Khan Suri",
     credentials: "MBBS, DLO (Gold Medalist)",
     hospital: "Shalby Multi-Specialty Hospital, Indore",
-    desc: "Consultant ENT and Head & Neck Surgeon with expertise in microscopic ear surgery and endoscopic sinus procedures.",
+    desc: "Consultant ENT and Head & Neck Surgeon specializing in hearing loss treatment, tinnitus and vertigo management, endoscopic sinus surgery, DNS and nasal polyp treatment, tonsil and adenoid surgery, thyroid and salivary gland procedures, pediatric ENT care, sleep apnea and airway surgery, and advanced microscopic and laser ENT procedures.",
     image: "/Sabiya.png",
   },
 ];
+
 // export const doctors = [
 //     {
 //         name: "Dr. Sami Anwar Khan",
