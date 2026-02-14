@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-white selection:bg-teal-100">
+    <div className="pt-32 md:pt-40 bg-white selection:bg-teal-100">
       {/* Premium Hero Slider */}
       <Hero slides={slides} currentSlide={currentSlide} />
 
@@ -41,7 +41,7 @@ export default function Home() {
 
       {/* Reliable CTA Banner */}
       <ActionCTA />
-    </div >
+    </div>
   );
 }
 

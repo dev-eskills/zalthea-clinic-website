@@ -37,7 +37,7 @@ const ActionCTA = () => {
                             {/* Primary CTA */}
                             <Link
                                 to="/book-appointment"
-                                className="group w-full sm:w-auto bg-white text-teal-900 px-8 py-5 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-teal-50 transition-all shadow-xl active:scale-95"
+                                className="group w-full sm:w-auto bg-white text-teal-900 px-8 py-5 rounded-md font-bold flex items-center justify-center gap-3 hover:bg-teal-50 transition-all shadow-xl active:scale-95"
                             >
                                 <Calendar size={20} className="text-teal-600" />
                                 Schedule Your Visit
@@ -47,7 +47,7 @@ const ActionCTA = () => {
                             {/* Secondary CTA */}
                             <Link
                                 to="/contact"
-                                className="w-full sm:w-auto bg-teal-800/50 backdrop-blur-md text-white border border-teal-500/30 px-8 py-5 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-teal-800 transition-all active:scale-95"
+                                className="w-full sm:w-auto bg-teal-800/50 backdrop-blur-md text-white border border-teal-500/30 px-8 py-5 rounded-md font-bold flex items-center justify-center gap-3 hover:bg-teal-800 transition-all active:scale-95"
                             >
                                 <PhoneCall size={20} className="text-teal-400" />
                                 Contact Clinic

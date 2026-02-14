@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
-import { MapPin, Phone, Clock, Mail } from 'lucide-react';
+import { motion } from "framer-motion";
+import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="pt-30">
       {/* Header Section */}
       <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-800 text-white">
         <motion.div
@@ -12,7 +12,10 @@ export default function Contact() {
           className="max-w-4xl mx-auto px-4 text-center"
         >
           <h1 className="text-4xl font-bold mb-4">Contact Information</h1>
-          <p className="text-teal-100 text-lg">We are here to help. Reach out to Zalthea Clinic via any of the channels below.</p>
+          <p className="text-teal-100 text-lg">
+            We are here to help. Reach out to Zalthea Clinic via any of the
+            channels below.
+          </p>
         </motion.div>
       </section>
 
@@ -20,7 +23,6 @@ export default function Contact() {
       <section className="py-24 -mt-12">
         <div className="max-w-5xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
-
             {/* Address Card */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -32,10 +34,14 @@ export default function Contact() {
                 <MapPin size={28} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-teal-900 mb-3">Clinic Address</h3>
+                <h3 className="text-xl font-bold text-teal-900 mb-3">
+                  Clinic Address
+                </h3>
                 <p className="text-teal-800 leading-relaxed">
-                  202, 203, 204, Second Floor,<br />
-                  Apollo Arcade, 1/2 Old Palasia,<br />
+                  202, 203, 204, Second Floor,
+                  <br />
+                  Apollo Arcade, 1/2 Old Palasia,
+                  <br />
                   Palasia Square, Indore (M.P.) - 452018
                 </p>
               </div>
@@ -53,10 +59,14 @@ export default function Contact() {
                 <Clock size={28} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-teal-900 mb-3">Opening Hours</h3>
+                <h3 className="text-xl font-bold text-teal-900 mb-3">
+                  Opening Hours
+                </h3>
                 <p className="text-teal-800 font-medium">Monday - Saturday</p>
                 <p className="text-teal-600 text-lg">6:00 PM - 8:00 PM</p>
-                <p className="text-gray-400 text-sm mt-2 font-medium">Closed on Sundays & Public Holidays</p>
+                <p className="text-gray-400 text-sm mt-2 font-medium">
+                  Closed on Sundays & Public Holidays
+                </p>
               </div>
             </motion.div>
 
@@ -72,13 +82,15 @@ export default function Contact() {
                 <Phone size={28} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-teal-900 mb-3">Phone Numbers</h3>
+                <h3 className="text-xl font-bold text-teal-900 mb-3">
+                  Phone Numbers
+                </h3>
                 <div className="space-y-2 flex flex-col">
-                  <a href="tel:+918818817862" className="text-teal-700 hover:text-teal-900 transition-colors font-semibold text-lg">
-                    +91 8818817862
-                  </a>
-                  <a href="tel:+919826197018" className="text-teal-700 hover:text-teal-900 transition-colors font-semibold text-lg">
-                    +91 9826197018
+                  <a
+                    href="tel:+917869960631"
+                    className="text-teal-700 hover:text-teal-900 transition-colors font-semibold text-lg"
+                  >
+                    +91 7869960631
                   </a>
                 </div>
               </div>
@@ -96,14 +108,20 @@ export default function Contact() {
                 <Mail size={28} />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-teal-900 mb-3">Email Support</h3>
-                <p className="text-teal-800 mb-2">For inquiries or documentation:</p>
-                <a href="mailto:info@zaltheaclinic.com" className="text-teal-700 hover:text-teal-900 transition-colors font-semibold">
+                <h3 className="text-xl font-bold text-teal-900 mb-3">
+                  Email Support
+                </h3>
+                <p className="text-teal-800 mb-2">
+                  For inquiries or documentation:
+                </p>
+                <a
+                  href="mailto:info@zaltheaclinic.com"
+                  className="text-teal-700 hover:text-teal-900 transition-colors font-semibold"
+                >
                   zaltheaclinic@gmail.com
                 </a>
               </div>
             </motion.div>
-
           </div>
 
           {/* Call to Action for Booking */}
@@ -112,7 +130,9 @@ export default function Contact() {
             whileInView={{ opacity: 1 }}
             className="mt-16 text-center"
           >
-            <p className="text-gray-500 mb-6 italic">Looking to book a consultation?</p>
+            <p className="text-gray-500 mb-6 italic">
+              Looking to book a consultation?
+            </p>
             <a
               href="/book-appointment"
               className="inline-block px-10 py-4 bg-teal-600 text-white rounded-full font-bold shadow-lg hover:bg-teal-700 transition-all hover:shadow-teal-200"
@@ -125,7 +145,6 @@ export default function Contact() {
     </div>
   );
 }
-
 
 // import { useState } from 'react';
 // import { motion } from 'framer-motion';

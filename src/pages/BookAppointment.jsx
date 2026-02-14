@@ -81,7 +81,7 @@ export default function BookAppointment() {
   };
   if (submitted) {
     return (
-      <section className="py-24 min-h-[60vh] flex items-center justify-center">
+      <section className=" py-24 min-h-[60vh] flex items-center justify-center">
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -100,7 +100,7 @@ export default function BookAppointment() {
   const today = new Date().toISOString().split('T')[0];
 
   return (
-    <div>
+    <div className='pt-30'>
       <section className="py-16 bg-gradient-to-br from-teal-600 to-teal-800 text-white">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -46,83 +46,150 @@ export const slides = [
 //     }
 // ];
 
+// export const treatments = [
+//   {
+//     name: "Heart Valve Repair",
+//     cat: "Advanced Cardiology",
+//     iconName: "HeartPulse",
+//     details:
+//       "Specialized reconstructive surgery for mitral and aortic valves. We prioritize tissue-sparing techniques over replacement to maintain natural heart geometry and long-term durability.",
+//     link: "/cardiology",
+//   },
+//   {
+//     name: "Micro EAR Surgery",
+//     cat: "Otology & Audiology",
+//     iconName: "Ear",
+//     details:
+//       "Ultra-precision microscopic intervention for chronic ear pathologies. Focused on the restoration of the ossicular chain to recover hearing function and resolve persistent infections.",
+//     link: "/ent",
+//   },
+//   {
+//     name: "Vascular & Aortic Care",
+//     cat: "Vascular Surgery",
+//     iconName: "Activity",
+//     details:
+//       "Comprehensive management of peripheral arterial diseases and aortic aneurysms using a hybrid of traditional and endovascular (EVAR) protocols for targeted recovery.",
+//     link: "/cardiology",
+//   },
+//   {
+//     name: "Endoscopic Sinus Surgery",
+//     cat: "Advanced Rhinology",
+//     iconName: "Wind",
+//     details:
+//       "Functional Endoscopic Sinus Surgery (FESS) utilizing high-definition imaging to clear obstructive sinus pathways and nasal polyps with minimal post-operative downtime.",
+//     link: "/ent",
+//   },
+//   {
+//     name: "CABG (Bypass Surgery)",
+//     cat: "Cardiac Surgery",
+//     iconName: "Hospital",
+//     details:
+//       "Gold-standard coronary revascularization (Beating Heart Surgery). Our protocols focus on total arterial grafting to ensure maximum graft longevity and reduced risk of stroke.",
+//     link: "/cardiology",
+//   },
+//   {
+//     name: "Cardio–Thoracic & Vascular Surgery",
+//     cat: "Comprehensive Heart, Lung & Vascular Care",
+//     iconName: "HeartPulse",
+//     details:
+//       "Advanced care for heart, lung, and vascular conditions using minimally invasive techniques to deliver safer procedures, faster recovery, and better long-term outcomes.",
+//     link: "cardiology",
+//   },
+// ];
+
 export const treatments = [
   {
-    name: "Heart Valve Repair",
-    cat: "Advanced Cardiology",
+    name: "CABG (Coronary Artery Bypass Surgery)",
+    cat: "Cardiac Surgery",
     iconName: "HeartPulse",
     details:
-      "Specialized reconstructive surgery for mitral and aortic valves. We prioritize tissue-sparing techniques over replacement to maintain natural heart geometry and long-term durability.",
+      "Advanced coronary artery bypass surgery including beating-heart techniques, focused on restoring optimal blood flow and improving long-term cardiac health.",
     link: "/cardiology",
   },
   {
-    name: "Micro EAR Surgery",
-    cat: "Otology & Audiology",
-    iconName: "Ear",
+    name: "Heart Valve Repair & Replacement",
+    cat: "Advanced Cardiology",
+    iconName: "Heart",
     details:
-      "Ultra-precision microscopic intervention for chronic ear pathologies. Focused on the restoration of the ossicular chain to recover hearing function and resolve persistent infections.",
-    link: "/ent",
+      "Comprehensive surgical management of mitral and aortic valve diseases using tissue-preserving repair techniques and modern prosthetic replacements.",
+    link: "/cardiology",
   },
   {
-    name: "Vascular & Aortic Care",
+    name: "Minimally Invasive Cardiac Surgery",
+    cat: "Cardio-Thoracic Care",
+    iconName: "ActivitySquare",
+    details:
+      "Small-incision heart procedures designed to reduce surgical trauma, minimize hospital stay, and accelerate patient recovery.",
+    link: "/cardiology",
+  },
+  {
+    name: "Vascular & Aneurysm Surgery",
     cat: "Vascular Surgery",
     iconName: "Activity",
     details:
-      "Comprehensive management of peripheral arterial diseases and aortic aneurysms using a hybrid of traditional and endovascular (EVAR) protocols for targeted recovery.",
+      "Advanced treatment for peripheral arterial disease (PAD), carotid artery disease, AV fistula creation, and aortic aneurysms using open and endovascular techniques.",
     link: "/cardiology",
   },
   {
-    name: "Endoscopic Sinus Surgery",
-    cat: "Advanced Rhinology",
-    iconName: "Wind",
+    name: "Thoracoscopic (VATS) Lung Surgery",
+    cat: "Thoracic Surgery",
+    iconName: "Cpu",
     details:
-      "Functional Endoscopic Sinus Surgery (FESS) utilizing high-definition imaging to clear obstructive sinus pathways and nasal polyps with minimal post-operative downtime.",
+      "Video-Assisted Thoracoscopic Surgery for lung infections, tumors, and chest trauma with minimal incisions and faster recovery.",
+    link: "/cardiology",
+  },
+  {
+    name: "Microscopic Ear Surgery",
+    cat: "Otology",
+    iconName: "Ear",
+    details:
+      "Precision ear surgery including tympanoplasty and mastoid procedures to restore hearing and treat chronic ear infections.",
     link: "/ent",
   },
   {
-    name: "CABG (Bypass Surgery)",
-    cat: "Cardiac Surgery",
-    iconName: "Hospital",
+    name: "Endoscopic Sinus Surgery (FESS)",
+    cat: "Rhinology",
+    iconName: "Wind",
     details:
-      "Gold-standard coronary revascularization (Beating Heart Surgery). Our protocols focus on total arterial grafting to ensure maximum graft longevity and reduced risk of stroke.",
-    link: "/cardiology",
+      "Minimally invasive sinus surgery for chronic sinusitis, nasal polyps, and deviated septum using high-definition endoscopic techniques.",
+    link: "/ent",
   },
   {
-    name: "Cardio–Thoracic & Vascular Surgery",
-    cat: "Comprehensive Heart, Lung & Vascular Care",
-    iconName: "HeartPulse",
+    name: "Thyroid & Head–Neck Surgery",
+    cat: "Head & Neck",
+    iconName: "UserCheck",
     details:
-      "Advanced care for heart, lung, and vascular conditions using minimally invasive techniques to deliver safer procedures, faster recovery, and better long-term outcomes.",
-    link: "cardiology",
+      "Expert surgical care for thyroid disorders, salivary gland conditions, head & neck tumors, and neck swellings with nerve-preserving precision.",
+    link: "/ent",
   },
   {
-    name: "Thyroid & Neck Oncology",
-    cat: "Head & Neck Surgery",
-    iconName: "ShieldPlus",
+    name: "Sleep Apnea & Airway Surgery",
+    cat: "Sleep & Airway",
+    iconName: "Moon",
     details:
-      "Oncological surgical care for thyroid, parathyroid, and salivary gland disorders. We emphasize nerve monitoring and aesthetic incision placement for optimal patient outcomes.",
+      "Comprehensive evaluation and surgical management of snoring, obstructive sleep apnea, and airway obstruction for improved breathing and sleep quality.",
     link: "/ent",
   },
 ];
 
 export const stats = [
   {
-    value: "13,000+",
-    label: "Hearts Healed",
-    desc: "Successful cardiac and vascular procedures performed across specialized centers.",
-    img: "/heart_doctors.png",
+    value: "6,000+",
+    label: "Lives Transformed",
+    desc: "Advanced cardiac, vascular, and thoracic procedures performed with precision across our specialized centers, restoring health and enhancing quality of life.",
+    img: "/slider1.jpeg",
   },
   {
     value: "99%",
-    label: "Success Rate",
-    desc: "Maintaining the highest standards of clinical outcomes and patient safety protocols.",
-    img: "https://asianheartinstitute.org/wp-content/uploads/2023/12/home-banner-mob.webp",
+    label: "Clinical Excellence Rate",
+    desc: "Delivering outstanding outcomes in cardiac, vascular, and thoracic treatments through world-class expertise, innovation, and rigorous patient safety standards.",
+    img: "/img1.jpeg",
   },
   {
-    value: "50,000+",
-    label: "Patients Served",
-    desc: "Comprehensive outpatient and surgical care provided with compassion and excellence.",
-    img: "https://i.pinimg.com/1200x/ed/6e/6f/ed6e6fc3b43929fca6158fdf5c82eafd.jpg",
+    value: "7,000+",
+    label: "Individuals Treated",
+    desc: "Comprehensive cardiac, vascular, and thoracic care provided with compassion, advanced technology, and a commitment to long-term patient well-being.",
+    img: "/slider3.jpeg",
   },
 ];
 
@@ -131,7 +198,6 @@ export const doctors = [
     value: "ctvs",
     name: "Dr. Sami Anwar Khan",
     credentials: "MBBS, MS, MCh, CTVS (Gold Medalist)",
-    regNo: "Reg. No.: MP - 13768",
     hospital: "Mohak Super Speciality & SAIMS Hospital",
     desc: "Senior Consultant - Cardiothoracic & Vascular Surgeon specializing in complex heart surgeries and arterial revascularization.",
     image: "/Sami.png",
@@ -140,7 +206,6 @@ export const doctors = [
     value: "ent",
     name: "Dr. Sabiya Khan Suri",
     credentials: "MBBS, DLO (Gold Medalist)",
-    regNo: "Reg. No.: MP - 15829",
     hospital: "Shalby Multi-Specialty Hospital, Indore",
     desc: "Consultant ENT and Head & Neck Surgeon with expertise in microscopic ear surgery and endoscopic sinus procedures.",
     image: "/Sabiya.png",
@@ -163,30 +228,34 @@ export const doctors = [
 
 export const reviews = [
   {
-    patient: "Aditya Sharma",
+    patient: "Shifa Patel",
     treatment: "Heart Valve Repair",
     rating: 5,
+    occupation: "MBBS Final Year Student, MGM Indore",
     date: "Jan 2026",
     comment:
-      "The precision of the cardiac team was life-changing. I was back to my routine within weeks. Truly a center of surgical excellence.",
+      "Dr. Sabiya maam has always been a great doctor and support system for me. I visited her for sinusitis and ear issues and received complete relief every time. I would recommend her to anyone suffering from ENT problems.",
     type: "Cardiology",
+    image: "/shifapatel.jpeg",
   },
   {
-    patient: "Priya Varma",
+    patient: "Sunil Pandhre",
     treatment: "Microscopic Ear Surgery",
     rating: 5,
     date: "Dec 2025",
     comment:
-      "After years of hearing loss, the micro-surgery performed here was a miracle. The professional care and follow-up were outstanding.",
+      "I, Sunil Pandhre, a yoga instructor, highly recommend Dr. Sabiya. Her accurate diagnosis and clear guidance ensure effective treatment outcomes. Many from my yoga community have benefited from her dedicated care.",
     type: "ENT",
+    image: "/sunilpadhre.jpeg",
   },
   {
-    patient: "Rajesh Iyer",
+    patient: "Meesha",
     treatment: "Bypass Surgery",
     rating: 5,
     date: "Nov 2025",
     comment:
-      "Highly specialized approach to CABG. The minimally invasive technique meant less pain and a very professional recovery environment.",
+      "I, Meesha, a national-level yoga player and student of Daly College, am grateful for the care provided by Dr. Sabiya. She is highly skilled, compassionate, and explains every concern clearly, making patients feel comfortable and confident.",
     type: "Cardiology",
+    image: "/meesha.jpeg",
   },
 ];

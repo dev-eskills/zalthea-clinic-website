@@ -25,7 +25,7 @@ export default function TreatmentSection() {
     const navigate = useNavigate();
 
     return (
-        <section className="py-24 md:py-32  relative overflow-hidden">
+        <section className="py-14 md:py-22  relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Modern Header */}
@@ -33,7 +33,7 @@ export default function TreatmentSection() {
                     <div className="max-w-xl">
                         <h2 className="text-teal-600 font-bold uppercase tracking-[0.3em] text-[10px] mb-4">Procedure Directory</h2>
                         <p className="text-4xl md:text-5xl font-light text-slate-900 leading-tight">
-                            Specialized <span className="font-bold border-b-8 border-teal-500/10">Surgical Excellence</span>
+                            Specialized <span className="font-bold border-b-8 border-teal-400/50">Surgical Excellence</span>
                         </p>
                     </div>
                     <p className="text-slate-400 text-sm max-w-[280px] italic border-l-2 border-slate-200 pl-6 hidden md:block">
@@ -70,7 +70,7 @@ export default function TreatmentSection() {
                                     </div>
 
                                     {/* Category Tag */}
-                                    <span className="text-[10px] font-black uppercase tracking-[0.4em] text-teal-500/60 group-hover:text-teal-400 mb-4 block">
+                                    <span className="text-[10px] font-semibold uppercase tracking-wider text-teal-500/60 group-hover:text-teal-400 mb-4 block">
                                         {t.cat}
                                     </span>
 
@@ -85,7 +85,7 @@ export default function TreatmentSection() {
                                 </div>
 
                                 {/* Interactive Footer */}
-                                <div className="relative z-10 flex items-center gap-3 text-xs font-black uppercase tracking-widest text-slate-900 group-hover:text-white pt-8 border-t border-slate-100 group-hover:border-white/10 transition-all">
+                                <div className="relative z-10 flex items-center gap-3 text-xs font-semibold uppercase tracking-widest text-slate-900 group-hover:text-white pt-8 border-t border-slate-100 group-hover:border-white/10 transition-all">
                                     <span>View Full Procedure</span>
                                     <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform text-teal-500" />
                                 </div>
